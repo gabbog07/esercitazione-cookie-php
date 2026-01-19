@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imposta le tue preferenze</h1>
+
+    <form action="set-cookie.php" method="post">
+        <label>
+            Username: <input type="text" name="username" required>
+        </label>
+        <br><br>
+        <label>
+            Tema:
+            <select name="tema">
+                <option value="light">Chiaro</option>
+                <option value="dark">Scuro</option>
+            </select>
+        </label>
+        <button type="submit"></button>
+    </form>
+</body>
+</html>
