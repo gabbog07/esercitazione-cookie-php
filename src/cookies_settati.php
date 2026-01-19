@@ -15,7 +15,7 @@ $text = ($tema === 'dark') ? '#fff' : '#000';
 <body style="background-color: <?= $bg ?>; color: <?= $text ?>;">
 
 <h1>Benvenuto <?= htmlspecialchars($username) ?>!
-<p>Tema selezionato: <?= $theme ?></p>
+<p>Tema selezionato: <?= $tema ?></p>
 </h1>
 
 
